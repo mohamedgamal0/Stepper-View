@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SecondStepCell" customModule="StepperView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="234" height="226"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="234" height="226"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rott" translatesAutoresizingMaskIntoConstraints="NO" id="jJH-2m-YfE">
+                        <rect key="frame" x="0.0" y="0.0" width="234" height="226"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="jJH-2m-YfE" secondAttribute="trailing" id="Gmg-I1-9Ec"/>
+                <constraint firstItem="jJH-2m-YfE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cYA-QO-sgM"/>
+                <constraint firstItem="jJH-2m-YfE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nzf-wJ-H2T"/>
+                <constraint firstAttribute="bottom" secondItem="jJH-2m-YfE" secondAttribute="bottom" id="yGJ-5e-DmQ"/>
+            </constraints>
+            <size key="customSize" width="234" height="226"/>
+            <point key="canvasLocation" x="271.01449275362319" y="156.69642857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="rott" width="665" height="1000"/>
+    </resources>
+</document>

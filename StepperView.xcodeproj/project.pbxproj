@@ -13,6 +13,19 @@
 		ED17B5892795747100C7DE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5872795747100C7DE6C /* Main.storyboard */; };
 		ED17B58B2795747400C7DE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED17B58A2795747400C7DE6C /* Assets.xcassets */; };
 		ED17B58E2795747400C7DE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED17B58C2795747400C7DE6C /* LaunchScreen.storyboard */; };
+		ED17B59A279574F200C7DE6C /* StepsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED17B599279574F200C7DE6C /* StepsView.xib */; };
+		ED17B59C279574FC00C7DE6C /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B59B279574FC00C7DE6C /* StepsView.swift */; };
+		ED17B59F2795755400C7DE6C /* StepIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED17B59E2795755400C7DE6C /* StepIconCell.xib */; };
+		ED17B5A22795758000C7DE6C /* StepIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5A12795758000C7DE6C /* StepIconCell.swift */; };
+		ED17B5A5279575EA00C7DE6C /* Extensions + UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5A4279575EA00C7DE6C /* Extensions + UIColor.swift */; };
+		ED17B5A8279576AC00C7DE6C /* Extensions + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5A7279576AC00C7DE6C /* Extensions + UIView.swift */; };
+		ED17B5AD27957B4600C7DE6C /* FirstStepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5AB27957B4600C7DE6C /* FirstStepCell.swift */; };
+		ED17B5AE27957B4600C7DE6C /* FirstStepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5AC27957B4600C7DE6C /* FirstStepCell.xib */; };
+		ED17B5B927957BE500C7DE6C /* ThirdStepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5B727957BE500C7DE6C /* ThirdStepCell.swift */; };
+		ED17B5BA27957BE500C7DE6C /* ThirdStepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5B827957BE500C7DE6C /* ThirdStepCell.xib */; };
+		ED17B5BD27957C1B00C7DE6C /* Extensions + UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5BC27957C1B00C7DE6C /* Extensions + UICollectionView.swift */; };
+		ED17B5C127957E4E00C7DE6C /* SecondStepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5BF27957E4E00C7DE6C /* SecondStepCell.swift */; };
+		ED17B5C227957E4E00C7DE6C /* SecondStepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5C027957E4E00C7DE6C /* SecondStepCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		ED17B58A2795747400C7DE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED17B58D2795747400C7DE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED17B58F2795747400C7DE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED17B599279574F200C7DE6C /* StepsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepsView.xib; sourceTree = "<group>"; };
+		ED17B59B279574FC00C7DE6C /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		ED17B59E2795755400C7DE6C /* StepIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepIconCell.xib; sourceTree = "<group>"; };
+		ED17B5A12795758000C7DE6C /* StepIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepIconCell.swift; sourceTree = "<group>"; };
+		ED17B5A4279575EA00C7DE6C /* Extensions + UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UIColor.swift"; sourceTree = "<group>"; };
+		ED17B5A7279576AC00C7DE6C /* Extensions + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UIView.swift"; sourceTree = "<group>"; };
+		ED17B5AB27957B4600C7DE6C /* FirstStepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepCell.swift; sourceTree = "<group>"; };
+		ED17B5AC27957B4600C7DE6C /* FirstStepCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstStepCell.xib; sourceTree = "<group>"; };
+		ED17B5B727957BE500C7DE6C /* ThirdStepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStepCell.swift; sourceTree = "<group>"; };
+		ED17B5B827957BE500C7DE6C /* ThirdStepCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdStepCell.xib; sourceTree = "<group>"; };
+		ED17B5BC27957C1B00C7DE6C /* Extensions + UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + UICollectionView.swift"; sourceTree = "<group>"; };
+		ED17B5BF27957E4E00C7DE6C /* SecondStepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStepCell.swift; sourceTree = "<group>"; };
+		ED17B5C027957E4E00C7DE6C /* SecondStepCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondStepCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,108 @@
 		ED17B5802795747100C7DE6C /* StepperView */ = {
 			isa = PBXGroup;
 			children = (
-				ED17B5812795747100C7DE6C /* AppDelegate.swift */,
-				ED17B5832795747100C7DE6C /* SceneDelegate.swift */,
-				ED17B5852795747100C7DE6C /* ViewController.swift */,
-				ED17B5872795747100C7DE6C /* Main.storyboard */,
+				ED17B5A3279575D600C7DE6C /* Extensions */,
+				ED17B597279574A200C7DE6C /* Stepper View Helpers */,
+				ED17B5952795747A00C7DE6C /* Delegates */,
+				ED17B5962795748D00C7DE6C /* Views */,
 				ED17B58A2795747400C7DE6C /* Assets.xcassets */,
 				ED17B58C2795747400C7DE6C /* LaunchScreen.storyboard */,
 				ED17B58F2795747400C7DE6C /* Info.plist */,
 			);
 			path = StepperView;
+			sourceTree = "<group>";
+		};
+		ED17B5952795747A00C7DE6C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B5812795747100C7DE6C /* AppDelegate.swift */,
+				ED17B5832795747100C7DE6C /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		ED17B5962795748D00C7DE6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B5A927957B1800C7DE6C /* ReusableViews */,
+				ED17B5852795747100C7DE6C /* ViewController.swift */,
+				ED17B5872795747100C7DE6C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED17B597279574A200C7DE6C /* Stepper View Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B59D2795752E00C7DE6C /* Step Icon Cell */,
+				ED17B598279574D700C7DE6C /* Steps View */,
+			);
+			path = "Stepper View Helpers";
+			sourceTree = "<group>";
+		};
+		ED17B598279574D700C7DE6C /* Steps View */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B59B279574FC00C7DE6C /* StepsView.swift */,
+				ED17B599279574F200C7DE6C /* StepsView.xib */,
+			);
+			path = "Steps View";
+			sourceTree = "<group>";
+		};
+		ED17B59D2795752E00C7DE6C /* Step Icon Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B59E2795755400C7DE6C /* StepIconCell.xib */,
+				ED17B5A12795758000C7DE6C /* StepIconCell.swift */,
+			);
+			path = "Step Icon Cell";
+			sourceTree = "<group>";
+		};
+		ED17B5A3279575D600C7DE6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B5A4279575EA00C7DE6C /* Extensions + UIColor.swift */,
+				ED17B5A7279576AC00C7DE6C /* Extensions + UIView.swift */,
+				ED17B5BC27957C1B00C7DE6C /* Extensions + UICollectionView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED17B5A927957B1800C7DE6C /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B5AA27957B2300C7DE6C /* FirstStepCell */,
+				ED17B5AF27957B6F00C7DE6C /* SecondStepCell */,
+				ED17B5B427957BBA00C7DE6C /* ThirdStepCell */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		ED17B5AA27957B2300C7DE6C /* FirstStepCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B5AB27957B4600C7DE6C /* FirstStepCell.swift */,
+				ED17B5AC27957B4600C7DE6C /* FirstStepCell.xib */,
+			);
+			path = FirstStepCell;
+			sourceTree = "<group>";
+		};
+		ED17B5AF27957B6F00C7DE6C /* SecondStepCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B5BF27957E4E00C7DE6C /* SecondStepCell.swift */,
+				ED17B5C027957E4E00C7DE6C /* SecondStepCell.xib */,
+			);
+			path = SecondStepCell;
+			sourceTree = "<group>";
+		};
+		ED17B5B427957BBA00C7DE6C /* ThirdStepCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED17B5B727957BE500C7DE6C /* ThirdStepCell.swift */,
+				ED17B5B827957BE500C7DE6C /* ThirdStepCell.xib */,
+			);
+			path = ThirdStepCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED17B59A279574F200C7DE6C /* StepsView.xib in Resources */,
+				ED17B5BA27957BE500C7DE6C /* ThirdStepCell.xib in Resources */,
+				ED17B59F2795755400C7DE6C /* StepIconCell.xib in Resources */,
+				ED17B5C227957E4E00C7DE6C /* SecondStepCell.xib in Resources */,
 				ED17B58E2795747400C7DE6C /* LaunchScreen.storyboard in Resources */,
 				ED17B58B2795747400C7DE6C /* Assets.xcassets in Resources */,
+				ED17B5AE27957B4600C7DE6C /* FirstStepCell.xib in Resources */,
 				ED17B5892795747100C7DE6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +262,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED17B59C279574FC00C7DE6C /* StepsView.swift in Sources */,
 				ED17B5862795747100C7DE6C /* ViewController.swift in Sources */,
+				ED17B5BD27957C1B00C7DE6C /* Extensions + UICollectionView.swift in Sources */,
+				ED17B5AD27957B4600C7DE6C /* FirstStepCell.swift in Sources */,
+				ED17B5A8279576AC00C7DE6C /* Extensions + UIView.swift in Sources */,
 				ED17B5822795747100C7DE6C /* AppDelegate.swift in Sources */,
+				ED17B5A5279575EA00C7DE6C /* Extensions + UIColor.swift in Sources */,
 				ED17B5842795747100C7DE6C /* SceneDelegate.swift in Sources */,
+				ED17B5A22795758000C7DE6C /* StepIconCell.swift in Sources */,
+				ED17B5C127957E4E00C7DE6C /* SecondStepCell.swift in Sources */,
+				ED17B5B927957BE500C7DE6C /* ThirdStepCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
